@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 10px;
+}
+
+.website {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* HEADER */
+#header {
+    background: #eee;
+    width: 100%;
+    height: 45px;
+}
+.header-item {
+    height: 100%;
+    display: inline-block;
+    line-height: 45px;
+}
+.header-item:hover {
+    background: #ddd;
+}
+
+.active {
+    background: #ccc;
+}
+
+/* MAIN */
+#main {
+    margin-top: 10px;
+    margin: auto;
+}
+
+/* ABOUT ME SECTION */
+
+/* PROJECTS SECTION */
+#projects-list {
+    background: lightpink;
+    width: 300px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project-title {
+    background: #eee;
+}
+
+.project-title:hover {
+    background: #ddd;
+}
+
+#project-display {
+    background: #eee;
+    display: inline-block;
+    height: 300px;
+    position: absolute;
+}
+
+/* RESUME SECTION */
+#resume {
+    margin: auto;
+}
+
+embed {
+    margin: auto;
+}
