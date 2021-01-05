@@ -6,21 +6,28 @@ body {
 .website {
     max-width: 600px;
     margin: auto;
+    background: #eee;
 }
 
 /* HEADER */
 #header {
-    background: #eee;
+    background: #313232;
     width: 100%;
+    color: #fff;
     height: 45px;
 }
+
 .header-item {
     height: 100%;
     display: inline-block;
     line-height: 45px;
+    text-align: center;
+    width: 32.87%;
 }
+
 .header-item:hover {
-    background: #ddd;
+    background: #555555;
+    cursor: pointer;
 }
 
 .active {
@@ -31,38 +38,25 @@ body {
 #main {
     margin-top: 10px;
     margin: auto;
+    width: 100%;
 }
 
 /* ABOUT ME SECTION */
 
 /* PROJECTS SECTION */
-#projects-list {
-    background: lightpink;
-    width: 300px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.project-title {
-    background: #eee;
-}
-
-.project-title:hover {
-    background: #ddd;
-}
-
-#project-display {
-    background: #eee;
-    display: inline-block;
-    height: 300px;
-    position: absolute;
+#projects {
+    width: 500px;
+    margin-top: 10px;
+    /*margin: auto;*/
 }
 
 /* RESUME SECTION */
 #resume {
-    margin: auto;
+    width: 600px;
+    /*margin: auto;*/
 }
 
 embed {
-    margin: auto;
+    width: 600px;
+    height: 700px;
 }
