@@ -60,3 +60,24 @@ embed {
     width: 600px;
     height: 700px;
 }
+
+/* FOOTER */
+#footer {
+    background: #313232;
+    width: 100%;
+    color: #fff;
+    height: 45px;
+}
+
+.footer-item {
+    height: 100%;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    width: 32.87%;
+}
+
+.footer-item:hover {
+    background: #555555;
+    cursor: pointer;
+}
