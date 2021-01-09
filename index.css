@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    padding: 10px;
 }
 
 .website {
@@ -25,13 +24,14 @@ body {
     width: 32.87%;
 }
 
-.header-item:hover {
+.header-item:not(.active):hover {
     background: #555555;
     cursor: pointer;
 }
 
 .active {
-    background: #ccc;
+    background: #eee;
+    color: black;
 }
 
 /* MAIN */
@@ -39,15 +39,39 @@ body {
     margin-top: 10px;
     margin: auto;
     width: 100%;
+    min-height: 300px;
 }
 
 /* ABOUT ME SECTION */
 
 /* PROJECTS SECTION */
 #projects {
-    width: 500px;
     margin-top: 10px;
     /*margin: auto;*/
+}
+
+.project {
+    width: 100%;
+}
+
+.project:hover {
+    background: #ddd;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.links {
+    width: 100%;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon:hover {
+    cursor: pointer;
 }
 
 /* RESUME SECTION */
